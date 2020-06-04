@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Summer To Die - Lois Lowry </title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+  </head>
+  <body style="padding: 100px;">
+    <div class="w3-container">
+      <p>Click on the buttons to show or hide the stuff.</p>
+    </div>
+    <div class="w3-container">
+      <button class="w3-button w3-ripple w3-xxxlarge w3-padding-large w3-black" onclick="w3.toggleShow('#gist')">General Gist</button>
+      <p id="gist">A girl named Meg lives in a house with her sometimes annoying older sister Molly. She has a few adult friends, and after Molly dies of luekemia, she learns that friends can get you through hard situations.</p>
+    </div>
+    <div class="w3-container">
+      <button class="w3-button w3-ripple w3-xxxlarge w3-padding-large w3-black" onclick="w3.toggleShow('#quote')">A Quote</button>
+      <p id="quote"><i>"I understood what Ben had told me once, about knowing and accepting that bad things will happen, because I understood,watching him, that someday Will Banks would be gone from me too.</i></p>
+    </div>
+    <div class="w3-container">
+      <button class="w3-button w3-ripple w3-xxxlarge w3-padding-large w3-black" onclick="w3.toggleShow('#words')">New Words</button>
+      <ol id="words"><li>ivied</li><li>ephermal</li><li>commodity</li><li>darkroom</li><li>exposure</li><li>negative</li><li>developing</li><li>agitation</li><li>nonplused</li><li>sawhorses</li></ol>
+    </div>
+    <div class="w3-container">
+      <button class="w3-button w3-ripple w3-xxxlarge w3-padding-large w3-black" onclick="w3.toggleShow('#metaphor')">Figurative language</button>
+      <p id="metaphor"><i>"It's as if she has become, suddenly, old."</i> - metaphor</p>
+    </div>
+    <div class="w3-container">
+      <button class="w3-button w3-ripple w3-xxxlarge w3-padding-large w3-black" onclick="w3.toggleShow('#scene')">My favorite scene</button>
+      <p id="scene">Will Banks shouting at his car</p>
+      <img src="scene.png" alt="Scene" id="scene">
+    </div>
+    <script>
+      w3.hide('#gist')
+      w3.hide('#quote')
+      w3.hide('#words')
+      w3.hide('#metaphor')
+      w3.hide('#scene')
+    </script>
+  </body>
+</html>
